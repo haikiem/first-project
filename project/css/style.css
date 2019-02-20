@@ -15,7 +15,7 @@ header {
 	justify-content: space-between;
 }
 .siteId .main-logo {
-	width: 74px;
+	  width: 74px;
   	height: 67px;
   	object-fit: contain;
   	font-family: 'Playfair Display', serif;
@@ -30,21 +30,21 @@ header {
   	margin-left: 105px;
 }
 .siteId .main-navigation {
-	width: 236px;
+	  width: 236px;
   	height: 21px;
   	margin-right: 180px;
     margin-top: 75px;
 }
 .main-navigation ul {
-	display: flex;
+	 display: flex;
 }
 .main-navigation ul li {
-	list-style: none;
-	margin-right: 35px;
+	  list-style: none;
+	  margin-right: 35px;
 }
 .main-navigation ul li a {
-	text-decoration: none;
-	font-family: 'Playfair Display', serif;
+	  text-decoration: none;
+	  font-family: 'Playfair Display', serif;
   	font-size: 16px;
   	font-weight: normal;
   	font-style: normal;
@@ -53,6 +53,10 @@ header {
   	letter-spacing: normal;
   	text-align: center;
   	color: #ffffff;
+}
+.main-navigation ul li a:hover  {
+    color: #000;
+    font-weight: bold;
 }
 .slide-text {
 	width: 570px;
@@ -73,6 +77,7 @@ header {
 	display: flex;
 	justify-content: center;
 	margin-top: 78px;
+  height: 850px;
 }
 .title-section {
 	margin-bottom: 68px;
@@ -96,9 +101,20 @@ header {
 .title-section button {
 	width: 167px;
 	height: 46px;
-  	background: none;
-    border: 1px solid gray;
-    margin-left: 66px;
+  background: none;
+  border: 1px solid gray;
+  margin-left: 66px;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #7f7e7e;
+  opacity: 0.6;
+
 }
 .figure .figure-left {
 	width: 254px;
@@ -109,9 +125,259 @@ header {
 	position: relative;
 }
 .image-left img:last-of-type {
-	position: absolute;
+    left: 318px;
+    position: absolute;
+    top: 1085px;
 }
 .figure .figure-right {
 	width: 254px;
 	margin-right: 115px;
+}
+.image-right img:first-of-type {
+  position: relative;
+  margin-top: 277px;
+}
+.image-right img:last-of-type {
+  position: absolute;
+  top: 829px;
+  right: 193px;
+}
+.figure-right p{
+  width: 231px;
+  height: 120px;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--greyish-brown);
+  margin-left: 85px;
+}
+.banner {
+  width: 1170px;
+  height: 633px;
+  object-fit: contain;
+  margin: 0 auto;
+  margin-bottom: 114px;
+}
+.banner p {
+  width: 410px;
+  height: 340px;
+  font-family: 'Playfair Display', serif;
+  font-size: 70px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.97;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  position: absolute;
+  top: 1700px;
+  left: 515px;
+}
+.favoris {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin-bottom: 84px;
+}
+.favoris p {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  color: #000;
+  text-transform: uppercase;
+  width: 100px;
+  white-space: nowrap;
+  height: 50px;
+  transform: rotate(90deg);
+  margin-top: 200px;
+}
+.favoris img:first-of-type {
+  
+}
+.favoris img:last-of-type {
+  
+}
+.btn-readmore {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 63px;
+}
+.btn-readmore hr:first-of-type {
+    width: 190px;
+    margin-left: 330px;
+    height: 0px;
+    margin-top: 28px;
+    opacity: 0.3;
+
+}
+.btn-readmore hr:last-of-type {
+    width: 190px;
+    margin-right: 330px;
+    height: 0px;
+    margin-top: 28px;
+    opacity: 0.3;
+}
+.btn-readmore button{
+  width: 230px;
+  height: 55px;
+  background: none;
+  border: 1px solid gray;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #7f7e7e;
+  opacity
+}
+.readmore {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 96px;
+
+}
+.readmore p:first-of-type {
+  transform: rotate(90deg);
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  color: #000;
+  text-transform: uppercase;
+  width: 120px;
+  height: 40px;
+  margin-top: 150px;
+}
+.readmore p:last-of-type {
+  transform: rotate(90deg);
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  color: #000;
+  text-transform: uppercase;
+  width: 120px;
+  height: 40px;
+  margin-top: 150px;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+}
+.contact img{
+}
+.new-letter {
+  margin-left: 51px;
+}
+.new-letter p:first-of-type {
+  width: 274px;
+  height: 128px;
+  font-family: 'Playfair Display', serif;
+  font-size: 70px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.91;
+  letter-spacing: normal;
+  color: var(--greyish-brown);
+  margin-bottom: 30px;
+}
+.new-letter p:last-of-type {
+  width: 370px;
+  height: 40px;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--greyish-brown);
+}
+.new-letter input {
+  width: 300px;
+  height: 30px;
+  background-color: #f1f0eb;
+  font-family: 'Playfair Display', serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--greyish-brown);
+  border: none;
+}
+footer {
+  margin-top: 146px;
+
+}
+footer hr {
+  width: 1170px;
+  opacity: 0.5;
+
+}
+.logo-footer {
+  float: left;
+  width: 27px;
+  height: 24px;
+  object-fit: contain;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+  margin-left: 105px;
+  margin-left: 208px;
+}
+.logo-footer p {
+
+}
+.ft-navigation {
+  width: 236px;
+  height: 21px;
+  float: left;
+  margin-left: 35px;
+  margin-top: 5px;
+}
+.ft-navigation ul {
+  display: flex;
+}
+.ft-navigation ul li {
+  list-style: none;
+  padding-right: 25px;
+    
+}
+.ft-navigation ul li a {
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+.icon-contact {
+  float: right;
+  margin-right: 137px;
+  margin-top: 20px;
 }
