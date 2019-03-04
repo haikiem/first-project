@@ -13,6 +13,7 @@ header {
 .siteId {
 	display: flex;
 	justify-content: space-between;
+
 }
 .siteId .main-logo {
 	  width: 74px;
@@ -78,6 +79,7 @@ header {
 	justify-content: center;
 	margin-top: 78px;
   height: 850px;
+  position: relative;
 }
 .title-section {
 	margin-bottom: 68px;
@@ -122,25 +124,24 @@ header {
 
 }
 .image-left img:first-of-type {
-	position: relative;
+
 }
 .image-left img:last-of-type {
     left: 318px;
     position: absolute;
-    top: 1085px;
+    top: 300px;
 }
 .figure .figure-right {
 	width: 254px;
 	margin-right: 115px;
 }
 .image-right img:first-of-type {
-  position: relative;
   margin-top: 277px;
 }
 .image-right img:last-of-type {
+  top: 50px;
+  right: 287px;
   position: absolute;
-  top: 829px;
-  right: 193px;
 }
 .figure-right p{
   width: 231px;
@@ -162,6 +163,7 @@ header {
   object-fit: contain;
   margin: 0 auto;
   margin-bottom: 114px;
+  position: relative;
 }
 .banner p {
   width: 410px;
@@ -177,7 +179,7 @@ header {
   color: #ffffff;
   text-transform: uppercase;
   position: absolute;
-  top: 1700px;
+  top: 100px;
   left: 515px;
 }
 .favoris {
