@@ -1,0 +1,34 @@
+
+/* reponsive screen 1024px */
+@media only screen and (max-width: 1024px){
+	body {
+		width: 1024px;
+	}
+	header {
+		width: 960px;
+		background-size: 100% 100%;
+	}
+	.slide-text {
+		margin-left: 200px;
+	}
+	.image-left img:last-of-type {
+		left: 110px;
+	}
+	.image-right img:last-of-type {
+		right: 80px;
+	}
+	.banner {
+		width: 1024px;		
+	}
+	.banner img {
+		width: 960px;
+		margin-left: 32px;
+	}
+	.banner p {
+		left: 300px;
+	}
+	footer hr {
+		width: 1024px;
+	}
+
+}
