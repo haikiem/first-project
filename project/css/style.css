@@ -208,7 +208,7 @@ header {
   
 }
 .btn-readmore {
-    width: 100%;
+    width: 1440px;
     height: 70px;
     display: flex;
     justify-content: center;
@@ -242,7 +242,7 @@ header {
   line-height: normal;
   letter-spacing: normal;
   color: #7f7e7e;
-  opacity
+  
 }
 .readmore {
   display: flex;

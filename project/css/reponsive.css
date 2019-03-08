@@ -28,7 +28,145 @@
 		left: 300px;
 	}
 	footer hr {
-		width: 1024px;
+		width: 960px;
 	}
 
 }
+/* reponsive screen 768px */
+
+@media only screen and (max-width: 768px){
+	body {
+		width: 768px;
+	}
+	header {
+		width: 708px;
+		background-size: 100% 100%;
+	}
+	.slide-text {
+		margin-left: 100px;
+		font-size: 70px;
+	}
+	.siteId .main-logo {
+		margin-left: 80px;
+	}
+	.siteId .main-navigation {
+		margin-right: 150px;
+	}
+	.figure .figure-left {
+		margin-right: 150px;
+	}
+	.image-left img:first-of-type {
+		width: 100%;
+	}
+	.image-left img:last-of-type {
+		width: 25%;
+		left: 90px;
+	}
+	.figure {
+		height: 680px;
+	}
+	.figure .figure-right {
+		margin-right: 0px;
+	}
+	.image-right img:first-of-type {
+		width: 100%;
+	}
+	.image-right img:last-of-type {
+		width: 25%;
+		top: 150px;
+	}
+	.title-section {
+		margin-left: -20px;
+	}
+	.figure-right p {
+		margin-left: 15px;
+		font-size: 25px;
+	}
+	.banner {
+		width: 786px;	
+		margin-bottom: 0px;
+		height: 500px;	
+	}
+	.banner img {
+		width: 708px;
+		margin-left: 32px;
+	}
+	.banner p {
+		left: 200px;
+		top: 0px;
+		font-size: 60px;
+		height: 300px;
+	}
+	.favoris {
+		width: 768px;
+	}
+	.favoris img:first-of-type {
+		width: 30%;
+		height: 30%;
+	}
+	.favoris img:last-of-type {
+		width: 30%;
+		height: 30%;
+	}
+	.favoris p {
+		font-size: 20px;
+		margin-top: 125px;
+		height: 35px;
+
+	}
+	.btn-readmore button {
+		
+	}
+	.btn-readmore  {
+		width: 768px;	
+	}
+	.btn-readmore hr:first-of-type {
+		margin-left: 100px;
+
+	}
+	.btn-readmore hr:last-of-type {
+		margin-right: 100px;
+	}
+	.readmore {
+		width: 768px;
+	}
+	.readmore img {
+		width: 73%;
+	}
+	.readmore p:first-of-type {
+		font-size: 15px;
+	}
+	.readmore p:last-of-type {
+		font-size: 15px;
+	}
+	footer hr {
+		width: 680px;
+	}
+	.contact {
+		width: 768px;
+		padding-left: 15px;
+	}
+	.contact img {
+		width: 35%;
+    	height: 35%;
+	}
+	.new-letter {
+		margin-left: 40px;
+	}
+	.new-letter input {
+		width: 210px;
+	}
+	.new-letter p:first-of-type {
+		font-size: 65px;
+	}
+	.new-letter p:last-of-type {
+		font-size: 13px;
+		width: 300px;
+	}
+	.logo-footer {
+		margin-left: 100px;
+	}
+	.icon-contact {
+		margin-right: 45px;
+	}
+}	
