@@ -2,21 +2,24 @@
 <html>
 <head>
 	<title>index</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">  
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/reponsive.css">
-	<link rel="stylesheet" type="text/css" href="font-awesome/fontawesome.min.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/fontawesome.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 </head>
 <body>
 	<div class="container">
 		<header>
+
 			<div class="siteId">
 				<div class="main-logo">
 					<p>ysê</p>
 				</div>
 				<nav class="main-navigation">
+					<a class="icon" href="#"><i class="fa fa-bars"></i></a>
 					<ul>
 						<li><a href="#">favorite</a></li>
 						<li><a href="#">collection</a></li>
@@ -94,5 +97,12 @@
 		</footer>
 		
 	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.icon').click(function(){
+				$('nav ul').toggleClass('open');
+			})
+		});
+	</script>
 </body>
 </html>

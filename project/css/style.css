@@ -38,6 +38,7 @@ header {
 }
 .main-navigation ul {
 	 display: flex;
+   
 }
 .main-navigation ul li {
 	  list-style: none;
@@ -383,4 +384,7 @@ footer hr {
   float: right;
   margin-right: 137px;
   margin-top: 20px;
+}
+.icon {
+  display: none;
 }
